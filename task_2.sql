@@ -7,7 +7,7 @@ def create_tables():
     TABLES['authors'] = (
         "CREATE TABLE IF NOT EXISTS authors ("
         "  author_id INT AUTO_INCREMENT PRIMARY KEY,"
-        "  name VARCHAR(100) NOT NULL,"
+        "  author_name VARCHAR(100) NOT NULL,"
         "  bio TEXT"
         ") ENGINE=InnoDB"
     )
